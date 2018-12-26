@@ -8,6 +8,9 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { OrderSummaryComponent } from './order-summary/order-summary.component';
+import { OrderComponent } from './order/order.component';
+import { DeliveryCostsComponent } from './order/delivery-costs/delivery-costs.component';
+import { OrderItemsComponent } from './order/order-items/order-items.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { OrderSummaryComponent } from './order-summary/order-summary.component';
     HeaderComponent,
     HomeComponent,
     NotFoundComponent,
-    OrderSummaryComponent
+    OrderSummaryComponent,
+    OrderComponent,
+    DeliveryCostsComponent,
+    OrderItemsComponent
   ],
   imports: [
     BrowserModule,
