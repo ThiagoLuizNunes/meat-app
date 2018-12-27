@@ -11,6 +11,11 @@ import { OrderSummaryComponent } from './order-summary/order-summary.component';
 import { OrderComponent } from './order/order.component';
 import { DeliveryCostsComponent } from './order/delivery-costs/delivery-costs.component';
 import { OrderItemsComponent } from './order/order-items/order-items.component';
+import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail.component';
+import { MenuItemComponent } from './restaurant-detail/menu-item/menu-item.component';
+import { MenuComponent } from './restaurant-detail/menu/menu.component';
+import { ReviewsComponent } from './restaurant-detail/reviews/reviews.component';
+import { ShoppingCartComponent } from './restaurant-detail/shopping-cart/shopping-cart.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +27,12 @@ import { OrderItemsComponent } from './order/order-items/order-items.component';
     OrderSummaryComponent,
     OrderComponent,
     DeliveryCostsComponent,
-    OrderItemsComponent
+    OrderItemsComponent,
+    RestaurantDetailComponent,
+    MenuItemComponent,
+    MenuComponent,
+    ReviewsComponent,
+    ShoppingCartComponent
   ],
   imports: [
     BrowserModule,
